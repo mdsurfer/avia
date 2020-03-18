@@ -59,30 +59,6 @@ dropdownCitiesTo.addEventListener('click', () => {
 
 });
 
-// dropdownCitiesFrom.addEventListener('click', (event) => {
-//    //console.log(event);
-//    const target = event.target;
-//    if (target.tagName === 'LI') {
-//       console.log(target.textContent);
-//       inputCitiesFrom.value = target.textContent;
-//       dropdownCitiesFrom.textContent = '';
-
-//    }
-   
-// });
-
-// dropdownCitiesTo.addEventListener('click', (event) => {
-//    //console.log(event);
-//    const target = event.target;
-//    if (target.tagName === 'LI') {
-//       console.log(target.textContent);
-//       inputCitiesTo.value = target.textContent;
-//       dropdownCitiesTo.textContent = '';
-
-//    }
-
-// });
-
 inputCitiesTo.addEventListener('input', () => {
    showCity(inputCitiesTo, dropdownCitiesTo)
 });
